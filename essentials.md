@@ -5,6 +5,7 @@ If you are completely new to AI, you should have elementary ML knowledge, especi
 The notes compiled in the images are from the [Microsoft Learn's](https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-102/) page.  
 - Probability and Confidence scores
 - Model Training and Inferencing
+- Multiclass, Multilabel
 
 ![azure AI basics](https://raw.githubusercontent.com/blessinvarkey/ai-102-2024-notes/main/assets/essentials0.png)
 
