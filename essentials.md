@@ -17,6 +17,25 @@ The notes compiled in the images are from the [Microsoft Learn's](https://learn.
 - Transparency 
 - Accountability
 
+## Azure Subscription/Resource
+- Resource: There are two keys generated (Check Keys and Endpoint). Rotate between the two keys for uninterrupted service. Always need to know the endpoint URLs and the region. 
+- Multi-service: single endpoint, single access credential for all services
+- Single-service: single endpoint, single access credential per service. (separate billing for each service)  
+
+## Endpoint URLs
+- Firewall: Public IPs, Service endpoint (tag specific subnets in a virtual network), Private endpoint   
+
+```  
+COG_SERVICE_ENDPOINT=your_cognitive_services_endpoint
+COG_SERVICE_KEY=your_cognitive_services_key
+``` 
+
+## Running the container
+- Accept EULA: accept
+
+
+## Azure Key Vault
+- You can store the two keys in the Azure key vault. Can apply RBAC. 
 
 ## Azure AI Services
 The essential Azure AI services are as follows: 
