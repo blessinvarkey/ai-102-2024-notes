@@ -1,1 +1,1 @@
-# tensorflow-notes
+# AI 102 notes
